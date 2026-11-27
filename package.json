@@ -1,0 +1,17 @@
+{
+  "name": "yuketang-local-playback-review",
+  "version": "3.0.7-local.8",
+  "private": true,
+  "description": "雨课堂辅助播放脚本的离线测试",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "check": "node --check yuketang.js",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.15"
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+*.log
+*.local.json
+
+# 本地课程数据与验收记录
+course-*.json
+artifacts/
+/COURSE_PLAN.md
+/PROGRESS.md
+/HANDOFF.md
+/DEVELOPMENT_PLAN.md
+/REVIEW.md
+/AGENTS.md
+/something.md
